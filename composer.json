@@ -1,0 +1,33 @@
+{
+  "name": "pawan/package",
+  "description": "Testing for private package",
+  "homepage": "https://github.com/pawankparmar/package",
+  "version": "1.0.2",
+  "type": "magento2-module",
+  "keywords": ["magento2"],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
+  "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/pawan/"},
+        {"packagist.org": false}
+    ],
+  "support": {
+        "issues": "https://github.com/pawankparmar/package/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pawan\\Package\\": ""
+    }
+  }
+}
